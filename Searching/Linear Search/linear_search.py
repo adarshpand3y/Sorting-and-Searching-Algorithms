@@ -8,6 +8,7 @@ for i in range(length):
 
 target = int(input("Enter number to search: "))
 
+# Searching using linear search
 for iteration, num in enumerate(arr):
     if num == target:
         found = True

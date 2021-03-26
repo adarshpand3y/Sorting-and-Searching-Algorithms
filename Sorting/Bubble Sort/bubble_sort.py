@@ -5,7 +5,7 @@ arr = []
 for i in range(length):
     arr.append(int(input("Enter a number: ")))
 
-# Sorting
+# Sorting using bubble sort
 for i in range(length):
     for j in range(length-1-i):
         if arr[j]>arr[j+1]:
