@@ -15,6 +15,7 @@ for iteration, num in enumerate(arr):
         pos = iteration
         break
 
+# Display
 if found:
     print(f"Found at position {pos}")
 else:
